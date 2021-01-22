@@ -3,71 +3,108 @@
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Lesson_1 Html</title>
+		<title>Document</title>
 </head>
 <body>
-		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed magni cupiditate adipisci saepe ad modi cum, illo porro soluta. <br> blanditiis beatae eos at pariatur quam quae, eum tempora ratione?</p>
-	<form action="#" method="GET">
-<div>
-		<p>Имя</p>
-		<input placeholder="Имя" tabindex="1" name="username" type="text"/>
-</div>
-<div>
-		<p>Фамилия</p>
-		<input placeholder="Фамилия" tabindex="1" name="userpass" type="password" />
-</div>
-<div>
-		<p>Пароль</p>
-		<input tabindex="2" name="userpass" type="password" />
-</div>
-<div>
-		<p>Телефон</p>
-		<input tabindex="3" name="userphone" type="tel" />
-</div>
-<div>
-	<p>Пол</p>
-	<div>
-		<input tabindex="4" type="radio" name="gender" value="male" />Мужской
-			</div>
-			<div>
-				<input tabindex="4" type="radio" name="gender" value="female" />Женский
-			</div>
-	</div>
-<div>
-		<p>Имущество</p>
-<div>
-	<input tabindex="5" type="checkbox" name="bike" value="yes"/> Велик
-</div>
-<div>
-	<input tabindex="6" type="checkbox" name="car" value="yes" /> Машина
-</div>
-<div>
-		<input tabindex="7" disabled type="checkbox" name="house" value="yes" /> Дом
-</div>
-</div>
-<div>
-		<p>Дополнительная информация</p>
-		<textarea tabindex="8" name="text"></textarea>
-</div>
-<div>
-		<p>Прикрепить фото</p>
-		<input tabindex="9" name="userfoto" type="file">
-</div>
-<div>
-	<p>Любимый цвет</p>
-	<select tabindex="10" name="color">
-		<option value="red">Красный</option>
-		<option value="grey">Серый</option>
-		<option value="green">Зеленый</option>
-		</select>
-		</div>
-		<div>
-			<p>Действия</p>
-			<button tabindex="11" type="submit">Отправить</button>
-			<button tabindex="12" type="reset">Очистить</button>
-			</div>
-		</form>
 
+<!-- комментарии -->
+<!-- ctrl . -->
+<!-- анатомия тега -->
+<!-- <имя_тега>
+<имя_тега атрибут="значение_атрибута" атрибут2="значение_атрибута" атрибут2="значение_атрибута">
+</имя_тега> -->
+
+<!-- строительные теги -->
+		<!--Шапка (хедер) сайта-->
+		<header class="header">
+			Я вехняя часть сайта
+
+			<!--предназначение Навигация-->
+			<nav class="menu">
+				Я навигация сайта
+			</nav>
+		</header>
+		<!--Предназначение Главная/самобытная информация страницы-->
+		<main class="main">
+Я основная часть сайта
+		</main>		
+		
+<div class="block block2 main red">
+			Я непонятно кто
+		</div>
+		<div title="я подсказка" class="block">
+	текст
+		</div>
+	<div id="block2"></div>
+
+	<!--Предназначение Подвал-->
+	<footer class="footer">
+		Я нижняя часть сайта
+		<nav class="menu">
+			Я навигация сайта
+		</nav>
+	</footer>
 			
 
+	<!-- теги для контента -->
+<!--Предназначение параграф текста-->
+<p class="text">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis mollitia nisi! Consequatur dolorem accusamus eligendi, magni, ullam amet tempore, consequuntur provident ad suscipit temporibus facere earum neque repellat. Eaque.
+</p>
+<p class="text">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis mollitia nisi! Consequatur dolorem
+	accusamus eligendi, magni, ullam amet tempore, consequuntur provident ad suscipit temporibus facere earum neque
+	repellat. Eaque.
+</p>
+<p class="text">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis mollitia nisi! Consequatur dolorem
+	accusamus eligendi, magni, ullam amet tempore, consequuntur provident ad suscipit temporibus facere earum neque
+	repellat. Eaque.
+</p>
+<!--Предназначение Заголовки-->
+<h1>Я заголовок1</h1>
+<h2>Я заголовок2</h2>
+<h3>Я заголовок3</h3>
+<h4>Я заголовок4</h4>
+<h5>Я заголовок5</h5>
+<h6>Я заголовок6</h6>
+
+<!--Предназначение выделение (строчные)-->
+Lorem <span> ipsum </span> dolor sit amet consectetur <mark> adipisicing </mark> elit. Cumque amet corporis vitae inventore illo quia <br> alias necessitatibus repudiandae libero unde ex, quam odio quasi fugit quae ipsum explicabo id perferendis.
+
+<!--Предназначение маркированый список-->
+<ul>
+<li>Список1</li>
+<li>Список2</li>
+<ul>
+	<li> Я подпункт</li>
+</ul>
+<li>Список3</li>
+<li>Список4</li>
+<li>Список5</li>
+</ul>
+
+<!--Предназначение нумерованный список-->
+<ol>
+
+		<li>Список1</li>
+		<li>Список1</li>
+		<li>Список2</li>
+		<li>Список3</li>
+
+</ol>
+
+
+<!--Предназначение переход на сайт/страницу (строчный)-->
+<!--target="_blank" открыть в новом окне-->
+<a target="_blank" href="ссылка">
+	видимый текст
+</a>
+
+<!--Предназначение вывод картинки-->
+
+<img src="img/html.jpg" alt="значок"
+
+
+</body>
 </html>
